@@ -4,7 +4,7 @@ A new Flutter project.
 
 ## Screens
 
-(demo.gif)
+<img src="demo.gif"/>
 
 ## Getting Started
 
