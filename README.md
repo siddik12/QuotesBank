@@ -4,7 +4,7 @@ A new Flutter project.
 
 ## Screens
 
-[Demo](demo.gif)
+![Demo](quotes.gif)
 
 ## Getting Started
 
