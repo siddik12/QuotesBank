@@ -27,8 +27,12 @@ class HomePage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Hero(tag: "logo",
-              child: Center(child: Image.asset('assets/images/quote.png'),)),
+              Hero(
+                tag: "logo",
+                child: Center(
+                  child: Image.asset('assets/images/quote.png'),
+                ),
+              ),
               SizedBox(
                 height: 20.0,
               ),
@@ -43,7 +47,9 @@ class HomePage extends StatelessWidget {
               Text(
                 "BANKS",
                 style: GoogleFonts.montserrat(
-                    fontSize: 36.0, fontWeight: FontWeight.w400),
+                  fontSize: 36.0,
+                  fontWeight: FontWeight.w400,
+                ),
               ),
               SizedBox(
                 height: 40.0,
@@ -51,9 +57,11 @@ class HomePage extends StatelessWidget {
               FloatingActionButton(
                 child: Icon(Icons.play_arrow),
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) {
-                     return Home();
-                  },));
+                  Navigator.push(context, MaterialPageRoute(
+                    builder: (context) {
+                      return Home();
+                    },
+                  ));
                 },
                 backgroundColor: Colors.black,
               ),
